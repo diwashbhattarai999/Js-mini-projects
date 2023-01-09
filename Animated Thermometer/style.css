@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+/* font-family: 'Palette Mosaic', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Mulish'; */
+    font-family: 'Palette Mosaic', cursive;
+}
+
+.outerDiv{
+    width: 100vw;
+    height: 100vh;
+    background: #2a364f;
+    display: grid;
+    place-items: center;
+}
+
+.innerDiv{
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+
+.main-heading{
+    padding: 30px;
+    color: #ffff;
+    text-shadow: 0 1px 8px rgba(255,255,255,0.5);
+    font-size: 30px;
+}
+
+.main-heading .fa{
+    font-size: 80px;
+}
