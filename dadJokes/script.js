@@ -39,7 +39,7 @@ const generateJokes = async ()=>{
             }
         }
     
-        const res  = await fetch('https://icanhazdadjoke.com' , setHeader)
+        const res  = await fetch('https://icanhazdadjoke.com' , setHeader); // fetch returns promise
         const data = await res.json()
         jokes.innerHTML = data.joke;
     }catch(err){
@@ -51,4 +51,4 @@ const generateJokes = async ()=>{
 
 
 jokeBtn.addEventListener('click',generateJokes);
-generateJokes();
+generateJokes(); //to generate default joke.

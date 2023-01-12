@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(26, 1, 73);
+    color: rgb(212, 212, 212);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+i{
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 20px;
+    font-family: monospace;
+}
+.counter{
+    font-size: 30px;
+    color: orange;
+}
